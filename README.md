@@ -35,6 +35,7 @@ The codes below do not fully replicate the results since we cannot share the ful
 
 ## Data
 
-- `tweets_congress.csv`: used to replicate the LDA model. Please notice that this is not the data set the authors used. Because the data set is too big, we can not commit it onto github.Please see it [here](https://www.dropbox.com/scl/fi/jz14130dlzj5xvca9txj4/midterm_candidates_labeled_all_May05.csv?rlkey=b0m1h6kk1af3uz9tjqyelthh3&dl=0)
+- `tweets_congress.csv`: used to replicate the LDA model. Please notice that this is not the data set the authors used. Because the data set is too big, we can not commit it onto github.Please see it [here]([https://www.dropbox.com/scl/fi/jz14130dlzj5xvca9txj4/midterm_candidates_labeled_all_May05.csv?rlkey=b0m1h6kk1af3uz9tjqyelthh3&dl=0](https://www.dropbox.com/scl/fi/mj8ldtyqwpkelnpyv0aja/tweets_congress.csv?rlkey=oltuf3odk3trrwjfl0a6ka25t&e=1&dl=0))
 
 - `main-time-series.csv, onetime-structural-shock-irfs-results.csv, pa2our_topics_crosswalk_merged_subissues`: used to replicate the VAR models and create the figures and tables.
+
