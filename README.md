@@ -1,4 +1,4 @@
-## Replication Materials: _Winning! Election Returns and Engagement in Social Media_
+## Replication Materials: _Who Leads? Who Follows? Measuring Issue Attention and Agenda Setting by Legislators and the Mass Public Using Social Media Data_
 
 Replication materials for Barberá, Casas, Nagler, Egan, Bonneau, Jost & Tucker, "Who Leads? Who Follows? Measuring Issue Attention and Agenda Setting by Legislators and the Mass Public Using Social Media Data", American Political Science Review, 2019.
 
