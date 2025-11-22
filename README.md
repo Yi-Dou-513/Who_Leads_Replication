@@ -50,3 +50,13 @@ The codes below do not fully replicate the results since we cannot share the ful
 - `k_topics_results_cv.Rdata`: saved cross-validation results from LDA models with different numbers of topics, used to assess and compare K-selection.
 
 - `lda_results-twokenizer.Rdata`: fitted LDA model output (including topic distributions) estimated on tweets tokenized with the twokenizer pipeline.
+
+## Report
+
+The final replication report is located in the `report/` folder:
+
+- `Replication.tex` — LaTeX source of the written report  
+- `Replication.bib` — bibliography file  
+- `Replication_of_Who_Leads_Who_Follows.pdf` — compiled PDF version of the report  
+
+This document summarizes the Methods, Results, Differences, Autopsy, and proposed Extensions of the replication.
