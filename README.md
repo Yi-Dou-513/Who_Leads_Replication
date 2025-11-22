@@ -18,6 +18,12 @@ The codes below do not fully replicate the results since we cannot share the ful
 ## Codes
 - `01-lda_k_selection_replication.r`: runs multiple LDA models to choose the right number of topics based on cross-validated model fit
 
+- `Replication04.r`: reconstruct Congressional group-level topic attention time serie using the authors’ LDA model (lda_results-twokenizer.Rdata) together with our preprocessed and sampled tweet corpus.
+
+- `Replication04.r`: construct the final topic–attention time series used in the  paper
+
+- `Replication04.r`: computes intercoder reliability for the 100 LDA topics—producing the pairwise agreement matrix, APIR, Cronbach’s alpha, and consensus labels using the authors’ topic-classification file.
+
 - `Replication_01Table3.r`: replicates Table 3 of the paper, where the authors show the correlation between the issue attention distribution of the different groups under analysis. 
 
 - `Replication_02Figure1.r`: replicates Figure 1 of the paper, where the authors show the average attention paid to each topic for the whole period of analysis. 
@@ -38,3 +44,9 @@ The codes below do not fully replicate the results since we cannot share the ful
 - `tweets_congress.csv`: used to replicate the LDA model. Please notice that this is not the data set the authors used. Because the data set is too big, we can not commit it onto github.Please see it [here](https://www.dropbox.com/scl/fi/mj8ldtyqwpkelnpyv0aja/tweets_congress.csv?rlkey=oltuf3odk3trrwjfl0a6ka25t&e=1&dl=0)
 
 - `main-time-series.csv, onetime-structural-shock-irfs-results.csv, pa2our_topics_crosswalk_merged_subissues`: used to replicate the VAR models and create the figures and tables.
+
+- `main-time-series-PRE.csv`: pre-processed daily issue-attention time series for all groups, used as input for the VAR and IRF replications.
+
+- `k_topics_results_cv.Rdata`: saved cross-validation results from LDA models with different numbers of topics, used to assess and compare K-selection.
+
+- `lda_results-twokenizer.Rdata`: fitted LDA model output (including topic distributions) estimated on tweets tokenized with the twokenizer pipeline.
